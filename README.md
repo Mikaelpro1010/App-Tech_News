@@ -15,7 +15,7 @@ Aplicação Web feita com o intuito de demonstrar minhas habilidades técnicas e
 
 3. Abra o Visual Studio Code ou qualquer outra IDE de sua preferência
    
-4. Abra a pasta API_Pokemon dentro da IDE
+4. Abra a pasta App-Tech_News dentro da IDE
    
 5. Digite o seguinte comando no terminal de sua IDE:
    ```bash
