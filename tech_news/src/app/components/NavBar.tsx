@@ -12,11 +12,16 @@ const navigation = [
   { name: 'About', href: '/about', current: false },
 ]
 
+interface DarkModeProps {
+  isDarkMode: boolean;
+  toggleDarkMode: () => void;
+}
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
 }
 
-const NavBar = ({ isDarkMode, toggleDarkMode }) => {
+const NavBar : React.FC<DarkModeProps> = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <Disclosure as="nav" className="bg-purple-900">
       {({ open }) => (
