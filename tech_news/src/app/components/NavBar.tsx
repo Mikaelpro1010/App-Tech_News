@@ -12,8 +12,8 @@ const navigation = [
   { name: 'About', href: '/about', current: false },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+function classNames(...classes: string[]) {
+  return classes.filter(Boolean).join(' ');
 }
 
 const NavBar = ({ isDarkMode, toggleDarkMode }) => {
