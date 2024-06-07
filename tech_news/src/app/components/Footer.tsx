@@ -11,7 +11,7 @@ const Footer = () => {
                         <img src="/whatsapp.png" alt="" width="25" />
                     </div>
                     <div className='mx-2 hover:text-blue-500'>
-                        <h2><Link href='https://web.whatsapp.com'>Watsapp</Link></h2>
+                        <h2><Link href='https://web.whatsapp.com'>Whatsapp</Link></h2>
                     </div>
                 </div>
                 <div className='flex items-center mx-4'>
